@@ -1,0 +1,93 @@
+2017-12-30 19:59:54.042022-0800 Cart[27462:1531667] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+Probably at least one of the constraints in the following list is one you don't want.
+Try this:
+(1) look at each constraint and try to figure out which you don't expect;
+(2) find the code that added the unwanted constraint or constraints and fix it.
+(
+"<NSLayoutConstraint:0x604000280c30 shirts.png.height == 169.5   (active, names: shirts.png:0x7fcb28024da0 )>",
+"<NSLayoutConstraint:0x604000282670 V:[shirts.png]-(5)-|   (active, names: shirts.png:0x7fcb28024da0, '|':UITableViewCellContentView:0x7fcb28024210 )>",
+"<NSLayoutConstraint:0x6040002826c0 V:|-(5)-[shirts.png]   (active, names: shirts.png:0x7fcb28024da0, '|':UITableViewCellContentView:0x7fcb28024210 )>",
+"<NSLayoutConstraint:0x608000098bf0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x7fcb28024210.height == 179.667   (active)>"
+)
+
+Will attempt to recover by breaking constraint
+<NSLayoutConstraint:0x604000280c30 shirts.png.height == 169.5   (active, names: shirts.png:0x7fcb28024da0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-12-30 19:59:54.053968-0800 Cart[27462:1531667] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+Probably at least one of the constraints in the following list is one you don't want.
+Try this:
+(1) look at each constraint and try to figure out which you don't expect;
+(2) find the code that added the unwanted constraint or constraints and fix it.
+(
+"<NSLayoutConstraint:0x604000283480 hoodies.png.height == 169.5   (active, names: hoodies.png:0x7fcb2802ffc0 )>",
+"<NSLayoutConstraint:0x604000283570 V:[hoodies.png]-(5)-|   (active, names: hoodies.png:0x7fcb2802ffc0, '|':UITableViewCellContentView:0x7fcb2802f1c0 )>",
+"<NSLayoutConstraint:0x6040002835c0 V:|-(5)-[hoodies.png]   (active, names: hoodies.png:0x7fcb2802ffc0, '|':UITableViewCellContentView:0x7fcb2802f1c0 )>",
+"<NSLayoutConstraint:0x604000283a70 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x7fcb2802f1c0.height == 179.667   (active)>"
+)
+
+Will attempt to recover by breaking constraint
+<NSLayoutConstraint:0x604000283480 hoodies.png.height == 169.5   (active, names: hoodies.png:0x7fcb2802ffc0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-12-30 19:59:54.092570-0800 Cart[27462:1531667] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+Probably at least one of the constraints in the following list is one you don't want.
+Try this:
+(1) look at each constraint and try to figure out which you don't expect;
+(2) find the code that added the unwanted constraint or constraints and fix it.
+(
+"<NSLayoutConstraint:0x60c0000958b0 hats.png.height == 169.5   (active, names: hats.png:0x7fcb26627b80 )>",
+"<NSLayoutConstraint:0x60c00009ae50 V:[hats.png]-(5)-|   (active, names: hats.png:0x7fcb26627b80, '|':UITableViewCellContentView:0x7fcb26608850 )>",
+"<NSLayoutConstraint:0x60c00009a2c0 V:|-(5)-[hats.png]   (active, names: hats.png:0x7fcb26627b80, '|':UITableViewCellContentView:0x7fcb26608850 )>",
+"<NSLayoutConstraint:0x60c00009d3d0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x7fcb26608850.height == 179.667   (active)>"
+)
+
+Will attempt to recover by breaking constraint
+<NSLayoutConstraint:0x60c0000958b0 hats.png.height == 169.5   (active, names: hats.png:0x7fcb26627b80 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-12-30 19:59:54.104397-0800 Cart[27462:1531667] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+Probably at least one of the constraints in the following list is one you don't want.
+Try this:
+(1) look at each constraint and try to figure out which you don't expect;
+(2) find the code that added the unwanted constraint or constraints and fix it.
+(
+"<NSLayoutConstraint:0x600000282da0 digital.height == 169.5   (active, names: digital:0x7fcb26403db0 )>",
+"<NSLayoutConstraint:0x600000284ab0 V:[digital]-(5)-|   (active, names: digital:0x7fcb26403db0, '|':UITableViewCellContentView:0x7fcb26403bc0 )>",
+"<NSLayoutConstraint:0x600000284920 V:|-(5)-[digital]   (active, names: digital:0x7fcb26403db0, '|':UITableViewCellContentView:0x7fcb26403bc0 )>",
+"<NSLayoutConstraint:0x6000002800a0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x7fcb26403bc0.height == 179.667   (active)>"
+)
+
+Will attempt to recover by breaking constraint
+<NSLayoutConstraint:0x600000282da0 digital.height == 169.5   (active, names: digital:0x7fcb26403db0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-12-30 19:59:54.998455-0800 Cart[27462:1531667] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Receiver (<Cart.CategoryViewController: 0x7fcb28009940>) has no segue with identifier 'ProductViewController''
+*** First throw call stack:
+(
+0   CoreFoundation                      0x000000010a58b12b __exceptionPreprocess + 171
+1   libobjc.A.dylib                     0x0000000106972f41 objc_exception_throw + 48
+2   UIKit                               0x00000001073b23d0 -[UIViewController shouldPerformSegueWithIdentifier:sender:] + 0
+3   UIKit                               0x0000000123bbc032 -[UIViewControllerAccessibility performSegueWithIdentifier:sender:] + 102
+4   Cart                                0x0000000105f48bb1 _T04Cart22CategoryViewControllerC05tableC0ySo07UITableC0C_10Foundation9IndexPathV14didSelectRowAttF + 593
+5   Cart                                0x0000000105f48c7c _T04Cart22CategoryViewControllerC05tableC0ySo07UITableC0C_10Foundation9IndexPathV14didSelectRowAttFTo + 92
+6   UIKit                               0x0000000107349839 -[UITableView _selectRowAtIndexPath:animated:scrollPosition:notifyDelegate:] + 1810
+7   UIKit                               0x0000000107349a54 -[UITableView _userSelectRowAtPendingSelectionIndexPath:] + 344
+8   UIKit                               0x0000000107212d59 _runAfterCACommitDeferredBlocks + 318
+9   UIKit                               0x0000000107201bb1 _cleanUpAfterCAFlushAndRunDeferredBlocks + 280
+10  UIKit                               0x00000001072310e0 _afterCACommitHandler + 137
+11  CoreFoundation                      0x000000010a52dc07 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 23
+12  CoreFoundation                      0x000000010a52db5e __CFRunLoopDoObservers + 430
+13  CoreFoundation                      0x000000010a512124 __CFRunLoopRun + 1572
+14  CoreFoundation                      0x000000010a511889 CFRunLoopRunSpecific + 409
+15  GraphicsServices                    0x000000010cd179c6 GSEventRunModal + 62
+16  UIKit                               0x00000001072075d6 UIApplicationMain + 159
+17  Cart                                0x0000000105f4ac17 main + 55
+18  libdyld.dylib                       0x000000010b729d81 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb)
